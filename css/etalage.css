@@ -18,8 +18,7 @@
 /* Large thumbnail: */
 #etalage .etalage_thumb{
 	background: white url(../images/loading.gif) center no-repeat;
-	  border: 1px solid #F0F0F0;
-	  width: 100%;
+	
 }
 
 /* Large thumbnail - image (in case you want to add a border around the image within the frame) */
@@ -28,9 +27,9 @@
 /* Small thumbnails: */
 #etalage .etalage_small_thumbs li{
 	
-	border: 1px solid #ddd;
+	border: 1px solid #BBC4C9;
 	margin: 10px;
-	
+	border-radius:5px;
 	cursor:pointer;
 }
 /* The one on the left that makes them slide */
@@ -92,8 +91,8 @@
 .etalage img, .etalage li{ -webkit-user-select:none; -khtml-user-select:none; -moz-user-select:none; -o-user-select:none; user-select:none; -webkit-user-drag:none; -moz-user-drag:none; user-drag:none }
 .etalage, .etalage_small_thumbs li{ float:left }
 .etalage_small_thumbs li img{
-	width:82px !important;
-	height:100% !important;
+	width:65px !important;
+	height:90px !important;
 }
 .etalage_small_thumbs{
 	width:100% !important;
@@ -105,7 +104,8 @@
 	width:100% !important;
 }
 .etalage_zoom_area div{
-	width:530px !important;
+	width:550px !important;
+	height:500px !important;
 }
 .etalage_magnifier{ cursor:default }
 .etalage_magnifier div, .etalage_small_thumbs{ overflow:hidden }
@@ -116,25 +116,25 @@
 .etalage_zoom_area div{ overflow:hidden; z-index:997 }
 .etalage_zoom_preview{ position:absolute; z-index:998 }
 .etalage_zoom_img, .etalage_hint{ z-index:999 }
-.etalage{ direction:ltr;   width: 100%!important;}
+.etalage{ direction:ltr; }
 div.etalage_description{ position:absolute; bottom:0; left:0; z-index:999 }
 div.etalage_description.rtl{ direction:rtl; text-align:right }
-@media only screen and (max-width: 1024px) {
 
-ul#etalage {
-  width: 319px!important;
-}
+@media only screen and (max-width: 1024px) {
 .etalage_zoom_area div{
-	width:540px !important;
+	width:659px !important;
 	height:530px !important;
 }
-@media only screen and (max-width: 768px) {
- .etalage_zoom_area div{
-	width:360px !important;
-	display:none;
- }
- ul#etalage {
-  width: 278px!important;
+@media only screen and (max-width: 800px) {
+.etalage_zoom_area div{
+	width:420px !important;
+	height:500px !important;
+}
+}
+@media only screen and (max-width: 640px) {
+.etalage_zoom_area div{
+	width:280px !important;
+	height:510px !important;
 }
 }
 @media only screen and (max-width: 480px) {
@@ -143,7 +143,12 @@ ul#etalage {
  }
 }
  @media only screen and (max-width: 320px) {
+  ul#etalage {
+	width: 100%;
+}
+
  #etalage .etalage_thumb{
- 	width:90% !important;
+ 	width:80% !important;
  }
+
 }
