@@ -68,7 +68,7 @@ i.cart {
 	displaY: inline-block;
 }
 .logo {
-	float:left;
+
 	width:14%;
 	position: absolute;
     top:30px;
@@ -3019,6 +3019,7 @@ h3.c-head{
 	}
 	.logo {
 		width: 19%;
+		
 	}
 	.sb-search {
 		right: 110px;
@@ -3138,6 +3139,7 @@ h3.c-head{
 	}
 	.logo {
 		width: 17%;
+	
 	}
 	.sb-search.sb-search-open, .no-js .sb-search {
 		width: 21%;
@@ -3424,8 +3426,8 @@ h3.c-head{
 
 @media screen and (max-width: 800px) {
 	.logo {
-		width: 26%;
-		margin-top:0;
+		width: 50%;
+		margin-left: 130px;
 	}
 	.navigation {
 		margin-top: 0;
@@ -3769,6 +3771,7 @@ h3.c-head{
 @media screen and (max-width: 640px) {
 	.logo img {
 		width: 65%;
+		margin-right: 150px: 
 	}
 	.up-arrow {
 		left: 275px;
@@ -4227,7 +4230,8 @@ h3.c-head{
 	.sb-search.sb-search-open, .no-js .sb-search {
 		width: 46%;
 	}
-	.logo img {
+	.
+	 img {
 		width: 80%;
 	}
 	.span_2_of_3 {
@@ -4454,7 +4458,7 @@ h3.c-head{
 	}
 	.logo {
 		width: 32%;
-	}
+		}
 	.mens-toolbar .sort {
 		width: 100%;
 		text-align: center;
