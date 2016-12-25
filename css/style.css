@@ -45,7 +45,7 @@ label{
 	-moz-background-size:cover;
 	-o-background-size:cover;
 	-ms-background-size:cover;
-	min-height:820px;
+	min-height: 90px;
 }
 .top-header{
 	min-height: 100px;
@@ -625,9 +625,12 @@ i.shipping {
 }
 .colors h4 {
 	color:#6d7b8a;
-	font-size:2.05em;
+	font-size:1.55em;
 	font-weight:600;
 	letter-spacing:1px;
+	width: 300px ;
+  margin-left: auto ;
+  margin-right: auto ;
 }
 .colors p {
 	color:#6d7b8a;
@@ -2958,7 +2961,7 @@ h3.c-head{
 		width: 20%;
 	}
 	.header {
-		min-height: 698px;
+		min-height: 90px;
 	}
 	.features-section-grid {
 		left: 274px;
@@ -2990,7 +2993,10 @@ h3.c-head{
 		width: 33%;
 	}
 	.colors h4 {
-		font-size: 1.85em;
+		font-size: 1.45em;
+		width: 300px ;
+  margin-left: auto ;
+  margin-right: auto ;
 	}
 	.r-title h3,.r-title h4 {
 		font-size: 1.5em;
@@ -3039,7 +3045,7 @@ h3.c-head{
 		font-size: 1.2em;
 	}
 	.header {
-		min-height: 645px;
+		min-height: 90px;
 	}
 	.banner-info a {
 		padding: 13px 23px;
@@ -3156,7 +3162,7 @@ h3.c-head{
 		margin: 6em auto 0;
 	}
 	.header {
-		min-height: 521px;
+		min-height: 90px;
 	}
 	.signing {
 		margin: 1.7em 0;
@@ -3214,7 +3220,10 @@ h3.c-head{
 		margin: 1% 0.8% 3%;
 	}
 	.colors h4 {
-		font-size: 1.5em;
+		font-size: 1.15em;
+		width: 300px ;
+  margin-left: auto ;
+  margin-right: auto ;
 	}
 	.colors p {
 		font-size: 1.15em;
@@ -3495,7 +3504,7 @@ h3.c-head{
 		margin: 4em auto 0;
 	}
 	.header {
-		min-height: 430px;
+		min-height: 90px;
 	}
 	.features-section-head h3, .products-section-head h3, .recommand-section-head h3, .contact-section-head h3 {
 		font-size: 2.1em;
@@ -3551,7 +3560,10 @@ h3.c-head{
 		width: 25%;
 	}
 	.colors h4 {
-		font-size: 1.3em;
+		font-size: 0.95em;
+		width: 300px ;
+  margin-left: auto ;
+  margin-right: auto ;
 	}
 	.colors p {
 		font-size: 1em;
@@ -3855,7 +3867,7 @@ h3.c-head{
 		padding: 0.8em 0.5em;
 	}
 	.colors h4 {
-		font-size: 1.1em;
+		font-size: 0.85em;
 	}
 	.colors p {
 		font-size: 0.9em;
@@ -4210,7 +4222,7 @@ h3.c-head{
 		min-height: 270px;
 	}
 	.header {
-		min-height: 370px;
+		min-height: 90px;
 	}
 	.sb-search.sb-search-open, .no-js .sb-search {
 		width: 46%;
@@ -4435,7 +4447,7 @@ h3.c-head{
 		min-height: 216px;
 	}
 	.header {
-		min-height: 208px;
+		min-height: 90px;
 	}
 	.logo img {
 		width: 100%;
@@ -4531,8 +4543,11 @@ h3.c-head{
 		padding: 0.2em 0.3em 0.3em 0.2em;
 	}
 	.colors h4 {
-		font-size: 1em;
+		font-size: 0.75em;
 		letter-spacing:0;
+		width: 300px ;
+  margin-left: auto ;
+  margin-right: auto ;
 	}
 	.colors p {
 		font-size: 0.875em;
